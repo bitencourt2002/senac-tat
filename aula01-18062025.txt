@@ -1,1 +1,42 @@
 utilizando o github pela primeira vez...
+
+Comandos apt para atualizar o Linux Mint:
+sudo apt update
+Atualiza a lista de programas e versões disponíveis (não instala nada, só busca as informações).
+
+sudo apt upgrade
+Atualiza os programas instalados para as versões mais recentes, sem remover ou instalar pacotes novos.
+
+sudo apt full-upgrade
+Atualiza os programas instalados e pode remover ou instalar novos pacotes para completar a atualização.
+
+sudo apt dist-upgrade
+É parecido com o full-upgrade, atualiza tudo e pode mexer em pacotes para garantir que a atualização seja feita.
+
+sudo apt autoremove
+Remove pacotes que foram instalados automaticamente, mas que não são mais necessários.
+
+sudo apt autoclean
+Apaga arquivos de pacotes antigos que não podem mais ser baixados (limpeza leve).
+
+sudo apt clean
+Apaga todos os arquivos baixados do repositório (limpeza completa para liberar espaço).
+
+✅ sudo apt install – Para que serve?
+Esse comando é usado para instalar programas no Linux.
+
+📌 Explicando:
+sudo = executa com permissão de administrador
+
+apt = gerenciador de pacotes
+
+install = ação de instalar
+
+nome-do-programa = o que você quer instalar
+
+🛠️ Exemplo:
+bash
+Copiar
+Editar
+sudo apt install firefox
+→ Isso instala o navegador Firefox no seu sistema.
